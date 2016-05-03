@@ -9,6 +9,7 @@
 #import "WayPointRouteSearchDemoViewController.h"
 #import "PoiSearchDemoViewController.h"
 #import "UIImage+Rotate.h"
+//#import <BaiduMapAPI/BMKUtilsComponent.h>
 #import <BaiduMapAPI_Utils/BMKUtilsComponent.h>
 
 #define MYBUNDLE_NAME @ "mapapi.bundle"

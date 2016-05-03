@@ -5,10 +5,10 @@
 //  Created by baidu on 13-7-14.
 //  Copyright (c) 2013年 Baidu. All rights reserved.
 //
-
+//#import <BaiduMapAPI/BMKUtilsComponent.h>
 #import <BaiduMapAPI_Utils/BMKUtilsComponent.h>
 #import "WayPointRouteSearchDemoViewController.h"
-#import "UIImage+Rotate.h"
+#import "UIImage+Rotate.h"                        
 
 #define MYBUNDLE_NAME @ "mapapi.bundle"
 #define MYBUNDLE_PATH [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent: MYBUNDLE_NAME]

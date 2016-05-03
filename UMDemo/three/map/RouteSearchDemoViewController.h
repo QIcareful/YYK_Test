@@ -7,6 +7,8 @@
 
 #import <UIKit/UIKit.h>
 #import <BaiduMapAPI_Map/BMKMapComponent.h>
+//#import <BaiduMapAPI/BMKMapComponent.h>
+//#import <BaiduMapAPI/BMKSearchComponent.h>
 #import <BaiduMapAPI_Search/BMKSearchComponent.h>
 
 @interface RouteSearchDemoViewController : UIViewController<BMKMapViewDelegate, BMKRouteSearchDelegate> {

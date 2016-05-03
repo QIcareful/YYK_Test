@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 @property(nonatomic, copy) NSString *mustUpdate;
+@property(nonatomic, retain)UITableView *contentTableView;
+
 
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+//#import <BaiduMapAPI/BMKMapManager.h>
 #import <BaiduMapAPI_Base/BMKMapManager.h>
 
 

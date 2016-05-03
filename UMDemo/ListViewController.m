@@ -8,8 +8,8 @@
 
 #import "ListViewController.h"
 #import <SDCycleScrollView.h>
-@interface ListViewController ()
 
+@interface ListViewController ()
 @end
 
 @implementation ListViewController
@@ -37,7 +37,7 @@
                                   @"http://c.hiphotos.baidu.com/image/w%3D400/sign=c2318ff84334970a4773112fa5c8d1c0/b7fd5266d0160924c1fae5ccd60735fae7cd340d.jpg"
                                   ];
     //网络加载图片的轮播器
-  SDCycleScrollView *cycleScrollView2 = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 280, 320, 180) delegate:self placeholderImage:[UIImage imageNamed:@"placeholder"]];
+  SDCycleScrollView *cycleScrollView2 = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 280, 320, 180) delegate:(id)self placeholderImage:[UIImage imageNamed:@"placeholder"]];
     cycleScrollView2.imageURLStringsGroup = imagesURLStrings;
     [self.view addSubview:cycleScrollView2];
     //本地加载图片的轮播器
